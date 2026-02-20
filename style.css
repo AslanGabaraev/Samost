@@ -1,0 +1,49 @@
+section
+{
+    margin-top: 160px;
+    justify-content: center;
+    display: grid;
+    gap: 20px;
+}
+.goal__Box
+{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.goal__Box button
+{ 
+    max-width: fit-content;
+}
+.students__Box
+{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.students__Box
+{
+    max-width: fit-content;
+}
+.student__button
+{
+    border-radius: 6px;
+    border: none;
+    background-color: khaki;
+}
+.goal__button
+{
+    border-radius: 6px;
+    border: none;
+    background-color: khaki;
+}
+
+.hidden { display: none; }
+form
+{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    gap: 15px;
+
+}
