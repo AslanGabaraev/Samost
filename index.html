@@ -7,28 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
-        <button onclick="" class="student__button">Студенты</button>
-        <button onclick="" class="goal__button">Цели</button>
+    <section class="button__section">
+        <button class="student__button">Студенты</button>
+        <button class="goal__button">Цели</button>
     </section>
     
     <section class="students">
-        <form>
-            <input type="text" placeholder="Имя">
-            <input type="text" placeholder="Фамилие">
-            <input type="text" placeholder="Код студента">
-            <input type="text" placeholder="Код задания">
+        <form class="students__form">
+            <input class="group__input" type="text" placeholder="Группа">
+            <input class="name__input" type="text" placeholder="Имя">
+            <input class="lastname__input" type="text" placeholder="Фамилие">
+            <input class="code__input" type="text" placeholder="Код студента">
+            <input class="goalcode__input" type="text" placeholder="Код задания">
+            <input class="number__input" type="tel" placeholder="Номер телефона">
+            <button>Отправить</button>
         </form>  
         
     </section>
 
     <section class="goals">
-        <form >
-        <input type="text" placeholder="Код задания">
-        <input type="text" placeholder="Дата Задания">
-        <input type="text" placeholder="Описание">
+        <form class="goals__form">
+        <input class="goalcode__input" type="text" placeholder="Код задания">
+        <textarea name="goals__descryption" placeholder="Описание"></textarea>
+        <button>Отправить</button>
         </form>
-
     </section>
     <script src="app.js"></script>
 </body>

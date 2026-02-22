@@ -1,9 +1,21 @@
 section
 {
-    margin-top: 160px;
     justify-content: center;
-    display: grid;
-    gap: 20px;
+    display: flex;
+    gap: 80px;
+    margin-bottom: 80px;
+}
+.button__section
+{
+    margin-top: 50px;
+}
+.students
+{
+    display: none;
+}
+.goals
+{
+    display: none;
 }
 .goal__Box
 {
@@ -25,20 +37,15 @@ section
 {
     max-width: fit-content;
 }
-.student__button
+button
 {
-    border-radius: 6px;
     border: none;
-    background-color: khaki;
-}
-.goal__button
-{
-    border-radius: 6px;
-    border: none;
-    background-color: khaki;
+    border-radius: 8px;
+    color: #000;
+    background-color: rgb(5, 170, 68);
+    padding: 10px 20px;
 }
 
-.hidden { display: none; }
 form
 {
     display: flex;
